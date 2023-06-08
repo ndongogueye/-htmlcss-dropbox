@@ -60,6 +60,16 @@ h1 {
  right: 11em;
  }
 
+.radio-titolo{
+   display: flex;
+   justify-content: center;
+   margin-top: 3em;
+} 
+
+.radio-titolo h2 {
+   margin-bottom: 0.5em;
+}
+
  .container {
     display: flex;
     align-items: end;
@@ -93,19 +103,18 @@ h1 {
 
  }
 
- h2 {
+ .operazioni h2 {
     display: flex;
     justify-content: center;
     margin-top: 3em;
- }
-
- h2 {
     font-size: 2.5em;
  }
+
 
 .colonne {
    max-width: 920px;
    margin: 0 auto;
+   margin-top: 2em;
 
   
 }
@@ -156,7 +165,7 @@ h3 {
 }
 
 .riga-grigia {
-   margin-bottom: 3rem;
+   margin-bottom: 4rem;
    margin-top: 1rem;
    width: 5px;
 }
@@ -182,7 +191,7 @@ height: 35px;
    width: 50px;
 }
 
-h4 {
+.card-body h4 {
    padding-bottom: 3rem;
 }
 
@@ -234,6 +243,10 @@ padding-bottom: 1rem;
    width: 600px;
    margin-right: 2rem;
    margin-top: 12em;
+  
+   
+
+   
 }
 
 .partner button {
@@ -260,7 +273,176 @@ width: 300px;
    margin: 0 auto;
 }
 
+.clienti-iscritti {
+   display: flex;
+   justify-content:center ;
+   margin-top: 5em;
+}
+
+.clienti-iscritti h2 {
+   margin-bottom: 1em;
+}
+
 .azienda-verde {
    background-color: rgb(178, 219, 136);
-   width: 400px;
+   width: 0px;
+   padding: 10em;
 } 
+
+.aziende {
+   display: flex;
+   margin-top: 10em;
+
+}
+
+.contenitore-centrale {
+   width: 33.3%;
+   min-height: 400px;
+   background-color: lightgrey;
+   padding-left: 2rem;
+   padding-top: 2rem;
+}
+ 
+.contenitore-aziende {
+   width: 33.3%;
+   min-height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.azienda {
+   width: 50%;
+   min-height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.azienda img {
+   width: 200px;
+}
+
+.contenitore-centrale img,p {
+padding-bottom: 2rem;
+}
+
+.contenitore-centrale hr {
+margin-bottom: 2em;
+}
+
+.verde {
+   background-color: rgb(138, 228, 138);
+   border: rgb(198, 247, 198) 10px solid;
+   
+}
+
+.scura {
+background-color: rgb(110, 20, 20);
+}
+
+.azzurra {
+   background-color: rgb(8, 105, 161);
+}
+
+.rossa {
+   background-color: red;
+}
+
+.rosso-chiaro {
+   background-color: rgb(243, 61, 61) ;
+}
+
+.azzurro-chiaro {
+   background-color: rgb(201, 227, 245);
+}
+
+.blu {
+   background-color: blue;
+}
+
+.giallo {
+   background-color: rgb(245, 245, 37);
+}
+
+.prova {
+   background-color: rgb(128, 203, 233);
+   width: 100%;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.prova button {
+   width: 200px;
+   height: 40px;
+   margin-bottom: 3em;
+   margin-left: 20em;
+}
+
+.prova h3,h2 {
+   font-size: 2.5em;
+}
+
+.domande {
+   padding-top: 4em;
+   display: flex;
+   justify-content: center;
+}
+
+.domande hr {
+   width: 900px;
+}
+
+.domande h2 {
+   padding-bottom: 2rem;
+}
+
+.domande h4 {
+   padding: 2rem;
+   padding-right: 18em;
+}
+
+
+
+.differenze {
+   display: flex;
+   align-items: center;
+}
+
+.domande>div {
+   padding-bottom: 7em;
+}
+
+.menù-foot { 
+      display: flex;
+      justify-content: center ;
+  
+      padding-top: 1em ;
+}
+
+footer ul {
+   display: flex;
+   flex-direction: column;
+}
+
+footer {
+   background-color: black;
+   color: white;
+}
+
+.menù-foot div {
+   padding-right: 2.5rem;
+   padding-top: 3rem;
+}
+
+.lingue {
+   margin-left: 27em;
+   margin-top: 3em;
+}
+
+.lingue hr {
+   width: 100px;
+   margin-bottom: 3em;
+}
